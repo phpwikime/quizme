@@ -2,6 +2,7 @@
   "name": "phpwikime/quizme",
   "description": "PHPWIKI.ME QuizMe",
   "license": "MIT",
+  "minimum-stability": "dev",
   "authors": [
     {
       "name": "Serdar DB",
