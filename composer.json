@@ -1,19 +1,24 @@
 {
   "name": "phpwikime/quizme",
   "description": "PHPWIKI.ME QuizMe",
+  "type": "library",
   "license": "MIT",
   "minimum-stability": "dev",
+  "prefer-stable": true,
   "authors": [
     {
       "name": "Serdar DB",
       "email": "serdar@dogrubakar.com"
     }
   ],
-  "require": {},
   "autoload": {
     "psr-4": {
       "Phpwikime\\Quizme\\": "src/"
     }
+  },
+  "require": {
+    "php": "^7.0",
+    "laravel/framework": "5.5.*",
   },
   "extra": {
     "laravel": {
