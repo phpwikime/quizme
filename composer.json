@@ -1,0 +1,27 @@
+{
+  "name": "phpwikime/quizme",
+  "description": "PHPWIKI.ME QuizMe",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Serdar DB",
+      "email": "serdar@dogrubakar.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Phpwikime\\Quizme\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Phpwikime\\Quizme\\QuizmeServiceProvider"
+      ],
+      "aliases": {
+        "Quizme": "Phpwikime\\Quizme\\QuizmeFacade"
+      }
+    }
+  }
+}
